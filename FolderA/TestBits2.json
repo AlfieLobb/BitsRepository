@@ -1,41 +1,35 @@
 {
-  "Name": "VoidScarred Corsair 2",
+  "Name": "Legionary",
   "Operatives": [
     {
       "Components": [
         {
           "$type": "RequiredBits",
+          "Id": "185d4bf9-e3c8-4eb0-8e06-a08bb8f85b00",
           "Bits": [
             {
-              "Letter": "C",
-              "Number": "115"
+              "Letter": "A",
+              "Number": "79"
             },
             {
-              "Letter": "C",
-              "Number": "116"
+              "Letter": "A",
+              "Number": "80"
             },
             {
-              "Letter": "C",
-              "Number": "123"
+              "Letter": "A",
+              "Number": "82"
             },
             {
-              "Letter": "C",
-              "Number": "124"
+              "Letter": "A",
+              "Number": "88"
             },
             {
-              "Letter": "C",
-              "Number": "125"
-            },
-            {
-              "Letter": "C",
-              "Number": "126"
-            },
-            {
-              "Letter": "C",
-              "Number": "119"
+              "Letter": "A",
+              "Number": "114"
             }
           ],
           "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Body"
         },
         {
@@ -43,140 +37,138 @@
           "Children": [
             {
               "$type": "RequiredBits",
+              "Id": "0a7e9075-a3f1-4852-a5f4-f1db376b2657",
               "Bits": [
                 {
-                  "Letter": "C",
-                  "Number": "117"
+                  "Letter": "A",
+                  "Number": "111"
+                },
+                {
+                  "Letter": "A",
+                  "Number": "92"
                 }
               ],
               "GlobalBitsIds": [],
-              "Name": "Shuriken Rifle"
+              "GlobalComponentIds": [],
+              "Name": "Power Fist"
             },
             {
               "$type": "RequiredBits",
+              "Id": "77776e6a-c789-41c0-ba17-619aa396177f",
               "Bits": [
                 {
-                  "Letter": "C",
-                  "Number": "158"
+                  "Letter": "A",
+                  "Number": "84"
+                },
+                {
+                  "Letter": "A",
+                  "Number": "85"
                 }
               ],
               "GlobalBitsIds": [],
-              "Name": "Shuriken Pistol"
+              "GlobalComponentIds": [],
+              "Name": "Tainted Chainsword"
             },
             {
               "$type": "RequiredBits",
+              "Id": "e944aa1c-8677-4434-a470-fc790a95ba78",
               "Bits": [
                 {
-                  "Letter": "C",
-                  "Number": "118"
+                  "Letter": "A",
+                  "Number": "84"
+                },
+                {
+                  "Letter": "A",
+                  "Number": "109"
                 }
               ],
               "GlobalBitsIds": [],
-              "Name": "Neuro Disruptor"
-            }
-          ],
-          "Bits": [],
-          "GlobalBitsIds": [],
-          "Name": "Right hand"
-        },
-        {
-          "$type": "OneFromChild",
-          "Children": [
-            {
-              "$type": "RequiredBits",
-              "Bits": [
-                {
-                  "Letter": "C",
-                  "Number": "120"
-                }
-              ],
-              "GlobalBitsIds": [],
+              "GlobalComponentIds": [],
               "Name": "Power Weapon"
             },
             {
               "$type": "RequiredBits",
+              "Id": "66098c39-bf7d-4ec5-b1d2-99fa2053502b",
               "Bits": [
                 {
-                  "Letter": "C",
-                  "Number": "121"
-                }
-              ],
-              "GlobalBitsIds": [],
-              "Name": "Empty hand"
-            }
-          ],
-          "Bits": [],
-          "GlobalBitsIds": [],
-          "Name": "Left hand"
-        },
-        {
-          "$type": "OneFromChild",
-          "Children": [
-            {
-              "$type": "RequiredBits",
-              "Bits": [
-                {
-                  "Letter": "C",
-                  "Number": "127"
-                }
-              ],
-              "GlobalBitsIds": [],
-              "Name": "Head A"
-            },
-            {
-              "$type": "RequiredBits",
-              "Bits": [
-                {
-                  "Letter": "C",
-                  "Number": "137"
+                  "Letter": "A",
+                  "Number": "84"
                 },
                 {
-                  "Letter": "C",
-                  "Number": "138"
+                  "Letter": "A",
+                  "Number": "112"
                 }
               ],
               "GlobalBitsIds": [],
-              "Name": "Head B"
+              "GlobalComponentIds": [],
+              "Name": "Power Maul"
             }
           ],
+          "Id": "c3271c17-895b-41b9-95b1-e868cafc5cd4",
           "Bits": [],
           "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Melee Weapon"
+        },
+        {
+          "$type": "OneFromList",
+          "Id": "e2c1381e-741d-41e0-8771-8ae3c50efd6c",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "90"
+            },
+            {
+              "Letter": "A",
+              "Number": "117"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Head"
         },
         {
-          "$type": "OneFromChild",
-          "Children": [
+          "$type": "OneFromList",
+          "Id": "47d75753-620d-4cea-9345-1e5ef1e353bf",
+          "Bits": [
             {
-              "$type": "RequiredBits",
-              "Bits": [
-                {
-                  "Letter": "C",
-                  "Number": "148"
-                }
-              ],
-              "GlobalBitsIds": [],
-              "Name": "Antenna"
+              "Letter": "A",
+              "Number": "140"
             },
             {
-              "$type": "RequiredBits",
-              "Bits": [
-                {
-                  "Letter": "C",
-                  "Number": "122"
-                }
-              ],
-              "GlobalBitsIds": [],
-              "Name": "Standard"
+              "Letter": "A",
+              "Number": "143"
             }
           ],
-          "Bits": [],
           "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Backpack"
+        },
+        {
+          "$type": "OneFromList",
+          "Id": "1dc4acaf-cdc2-4d2c-9dc7-0c4111b5a892",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "89"
+            },
+            {
+              "Letter": "A",
+              "Number": "118"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Backpack Adornment"
         }
       ],
-      "Name": "Felarch",
+      "GlobalComponentIds": [
+        "a3c16e6f-deec-48a5-8331-5aac9455a058",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Aspiring Champion",
       "Stage": {
-        "Step": 13,
+        "Step": 3,
         "Letter": [
           "A",
           "B",
@@ -188,177 +180,70 @@
       "Components": [
         {
           "$type": "RequiredBits",
+          "Id": "c47b2b1e-63ac-4032-bd8d-12ef7499d0e3",
           "Bits": [
             {
-              "Letter": "C",
-              "Number": "1"
+              "Letter": "A",
+              "Number": "79"
             },
             {
-              "Letter": "C",
-              "Number": "2"
+              "Letter": "A",
+              "Number": "80"
             },
             {
-              "Letter": "C",
-              "Number": "3"
+              "Letter": "A",
+              "Number": "81"
             },
             {
-              "Letter": "C",
-              "Number": "4"
+              "Letter": "A",
+              "Number": "82"
             },
             {
-              "Letter": "C",
-              "Number": "5"
+              "Letter": "A",
+              "Number": "83"
             },
             {
-              "Letter": "C",
-              "Number": "6"
+              "Letter": "A",
+              "Number": "84"
+            },
+            {
+              "Letter": "A",
+              "Number": "85"
+            },
+            {
+              "Letter": "A",
+              "Number": "133"
             }
           ],
           "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Body"
         },
         {
           "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654",
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Melee",
-      "Stage": {
-        "Step": 16,
-        "Letter": [
-          "A",
-          "B"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
+          "Id": "bbcb64da-7384-4f35-b045-551fca7ff4e2",
           "Bits": [
             {
-              "Letter": "C",
-              "Number": "1"
+              "Letter": "A",
+              "Number": "134"
             },
             {
-              "Letter": "C",
-              "Number": "2"
-            },
-            {
-              "Letter": "C",
-              "Number": "3"
-            },
-            {
-              "Letter": "C",
-              "Number": "4"
-            },
-            {
-              "Letter": "C",
-              "Number": "7"
-            },
-            {
-              "Letter": "C",
-              "Number": "8"
-            },
-            {
-              "Letter": "C",
-              "Number": "9"
+              "Letter": "A",
+              "Number": "135"
             }
           ],
           "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654",
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
+          "GlobalComponentIds": [],
+          "Name": "Icon"
         }
       ],
-      "Name": "Warrior Ranged",
-      "Stage": {
-        "Step": 16,
-        "Letter": [
-          "A",
-          "C"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "1"
-            },
-            {
-              "Letter": "C",
-              "Number": "2"
-            },
-            {
-              "Letter": "C",
-              "Number": "3"
-            },
-            {
-              "Letter": "C",
-              "Number": "4"
-            },
-            {
-              "Letter": "C",
-              "Number": "10"
-            },
-            {
-              "Letter": "C",
-              "Number": "11"
-            },
-            {
-              "Letter": "C",
-              "Number": "12"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
+      "GlobalComponentIds": [
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
       ],
-      "Name": "Way Seeker",
+      "Name": "Warrior Melee Icon Bearer",
       "Stage": {
-        "Step": 16,
+        "Step": 3,
         "Letter": [
           "A",
           "D"
@@ -369,1150 +254,104 @@
       "Components": [
         {
           "$type": "RequiredBits",
+          "Id": "17839491-d43f-40f3-94ce-c31c0377ebe7",
           "Bits": [
             {
-              "Letter": "C",
-              "Number": "13"
+              "Letter": "A",
+              "Number": "79"
             },
             {
-              "Letter": "C",
-              "Number": "14"
+              "Letter": "A",
+              "Number": "80"
             },
             {
-              "Letter": "C",
-              "Number": "15"
+              "Letter": "A",
+              "Number": "81"
             },
             {
-              "Letter": "C",
-              "Number": "16"
+              "Letter": "A",
+              "Number": "82"
             },
             {
-              "Letter": "C",
-              "Number": "17"
+              "Letter": "A",
+              "Number": "84"
             },
             {
-              "Letter": "C",
-              "Number": "18"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654",
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Melee",
-      "Stage": {
-        "Step": 17,
-        "Letter": [
-          "A",
-          "B"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "13"
-            },
-            {
-              "Letter": "C",
-              "Number": "14"
-            },
-            {
-              "Letter": "C",
-              "Number": "15"
-            },
-            {
-              "Letter": "C",
-              "Number": "16"
-            },
-            {
-              "Letter": "C",
-              "Number": "20"
-            },
-            {
-              "Letter": "C",
-              "Number": "23"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654",
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Ranged",
-      "Stage": {
-        "Step": 17,
-        "Letter": [
-          "A",
-          "C"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "13"
-            },
-            {
-              "Letter": "C",
-              "Number": "14"
-            },
-            {
-              "Letter": "C",
-              "Number": "15"
-            },
-            {
-              "Letter": "C",
-              "Number": "16"
-            },
-            {
-              "Letter": "C",
+              "Letter": "B",
               "Number": "21"
             },
             {
-              "Letter": "C",
+              "Letter": "B",
               "Number": "22"
             }
           ],
           "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Body"
         },
         {
           "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654",
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
+          "Id": "d3322a22-9bc3-411f-adab-4dd58ef829e9",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "134"
+            },
+            {
+              "Letter": "A",
+              "Number": "135"
+            }
           ],
-          "Name": "Head"
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Icon"
         },
         {
           "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
+          "Id": "f939cc44-9f52-44c6-98cf-230485761bc6",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "140"
+            },
+            {
+              "Letter": "A",
+              "Number": "143"
+            }
           ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Backpack"
-        }
-      ],
-      "Name": "Gunner With Blaster",
-      "Stage": {
-        "Step": 17,
-        "Letter": [
-          "A",
-          "C"
-        ]
-      }
-    },
-    {
-      "Components": [
+        },
         {
-          "$type": "RequiredBits",
+          "$type": "OneFromList",
+          "Id": "2bc159a9-99f1-46b6-9c89-bb30cc1d72ea",
           "Bits": [
             {
-              "Letter": "C",
-              "Number": "24"
-            },
-            {
-              "Letter": "C",
-              "Number": "25"
-            },
-            {
-              "Letter": "C",
-              "Number": "26"
-            },
-            {
-              "Letter": "C",
-              "Number": "27"
-            },
-            {
-              "Letter": "C",
-              "Number": "28"
-            },
-            {
-              "Letter": "C",
-              "Number": "29"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "14054891-1e38-4e1e-a57f-b2c5cea92654"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Melee",
-      "Stage": {
-        "Step": 18,
-        "Letter": [
-          "A",
-          "B"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "24"
-            },
-            {
-              "Letter": "C",
-              "Number": "25"
-            },
-            {
-              "Letter": "C",
-              "Number": "26"
-            },
-            {
-              "Letter": "C",
-              "Number": "27"
-            },
-            {
-              "Letter": "C",
-              "Number": "33"
-            },
-            {
-              "Letter": "C",
-              "Number": "34"
-            },
-            {
-              "Letter": "C",
-              "Number": "35"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Ranged",
-      "Stage": {
-        "Step": 18,
-        "Letter": [
-          "A",
-          "C"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "24"
-            },
-            {
-              "Letter": "C",
-              "Number": "25"
-            },
-            {
-              "Letter": "C",
-              "Number": "26"
-            },
-            {
-              "Letter": "C",
-              "Number": "27"
-            },
-            {
-              "Letter": "C",
-              "Number": "30"
-            },
-            {
-              "Letter": "C",
-              "Number": "31"
-            },
-            {
-              "Letter": "C",
-              "Number": "32"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Gunner With Shredder",
-      "Stage": {
-        "Step": 18,
-        "Letter": [
-          "A",
-          "D"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "36"
-            },
-            {
-              "Letter": "C",
-              "Number": "37"
-            },
-            {
-              "Letter": "C",
-              "Number": "38"
-            },
-            {
-              "Letter": "C",
-              "Number": "39"
-            },
-            {
-              "Letter": "C",
-              "Number": "40"
-            },
-            {
-              "Letter": "C",
-              "Number": "41"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Melee",
-      "Stage": {
-        "Step": 19,
-        "Letter": [
-          "A",
-          "B"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "36"
-            },
-            {
-              "Letter": "C",
-              "Number": "37"
-            },
-            {
-              "Letter": "C",
-              "Number": "38"
-            },
-            {
-              "Letter": "C",
-              "Number": "39"
-            },
-            {
-              "Letter": "C",
-              "Number": "42"
-            },
-            {
-              "Letter": "C",
-              "Number": "43"
-            },
-            {
-              "Letter": "C",
-              "Number": "44"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Ranged",
-      "Stage": {
-        "Step": 19,
-        "Letter": [
-          "A",
-          "C"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "36"
-            },
-            {
-              "Letter": "C",
-              "Number": "37"
-            },
-            {
-              "Letter": "C",
-              "Number": "38"
-            },
-            {
-              "Letter": "C",
-              "Number": "39"
-            },
-            {
-              "Letter": "C",
-              "Number": "45"
-            },
-            {
-              "Letter": "C",
-              "Number": "46"
-            },
-            {
-              "Letter": "C",
-              "Number": "47"
-            },
-            {
-              "Letter": "C",
-              "Number": "48"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Starstorm Duelist",
-      "Stage": {
-        "Step": 19,
-        "Letter": [
-          "A",
-          "D"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "49"
-            },
-            {
-              "Letter": "C",
-              "Number": "50"
-            },
-            {
-              "Letter": "C",
-              "Number": "51"
-            },
-            {
-              "Letter": "C",
-              "Number": "52"
-            },
-            {
-              "Letter": "C",
-              "Number": "53"
-            },
-            {
-              "Letter": "C",
-              "Number": "54"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654",
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Melee",
-      "Stage": {
-        "Step": 20,
-        "Letter": [
-          "A",
-          "B"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "49"
-            },
-            {
-              "Letter": "C",
-              "Number": "50"
-            },
-            {
-              "Letter": "C",
-              "Number": "51"
-            },
-            {
-              "Letter": "C",
-              "Number": "53"
-            },
-            {
-              "Letter": "C",
-              "Number": "54"
-            },
-            {
-              "Letter": "C",
-              "Number": "58"
-            },
-            {
-              "Letter": "C",
-              "Number": "59"
-            },
-            {
-              "Letter": "C",
-              "Number": "60"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Kurnite Hunter",
-      "Stage": {
-        "Step": 20,
-        "Letter": [
-          "A",
-          "B"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "49"
-            },
-            {
-              "Letter": "C",
-              "Number": "50"
-            },
-            {
-              "Letter": "C",
-              "Number": "53"
-            },
-            {
-              "Letter": "C",
-              "Number": "54"
-            },
-            {
-              "Letter": "C",
-              "Number": "55"
-            },
-            {
-              "Letter": "C",
-              "Number": "56"
-            },
-            {
-              "Letter": "C",
-              "Number": "57"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654",
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Ranged",
-      "Stage": {
-        "Step": 20,
-        "Letter": [
-          "A",
-          "C"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "61"
-            },
-            {
-              "Letter": "C",
-              "Number": "62"
-            },
-            {
-              "Letter": "C",
-              "Number": "63"
-            },
-            {
-              "Letter": "C",
-              "Number": "64"
-            },
-            {
-              "Letter": "C",
-              "Number": "65"
-            },
-            {
-              "Letter": "C",
-              "Number": "66"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Melee",
-      "Stage": {
-        "Step": 21,
-        "Letter": [
-          "A",
-          "B"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "61"
-            },
-            {
-              "Letter": "C",
-              "Number": "62"
-            },
-            {
-              "Letter": "C",
-              "Number": "63"
-            },
-            {
-              "Letter": "C",
-              "Number": "64"
-            },
-            {
-              "Letter": "C",
-              "Number": "67"
-            },
-            {
-              "Letter": "C",
-              "Number": "68"
-            },
-            {
-              "Letter": "C",
-              "Number": "69"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Ranged",
-      "Stage": {
-        "Step": 21,
-        "Letter": [
-          "A",
-          "C"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "61"
-            },
-            {
-              "Letter": "C",
-              "Number": "62"
-            },
-            {
-              "Letter": "C",
-              "Number": "63"
-            },
-            {
-              "Letter": "C",
-              "Number": "64"
-            },
-            {
-              "Letter": "C",
-              "Number": "70"
-            },
-            {
-              "Letter": "C",
-              "Number": "71"
-            },
-            {
-              "Letter": "C",
-              "Number": "72"
-            },
-            {
-              "Letter": "C",
-              "Number": "73"
-            },
-            {
-              "Letter": "C",
-              "Number": "74"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        }
-      ],
-      "Name": "Soul Weaver",
-      "Stage": {
-        "Step": 21,
-        "Letter": [
-          "A",
-          "D"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "75"
-            },
-            {
-              "Letter": "C",
-              "Number": "76"
-            },
-            {
-              "Letter": "C",
-              "Number": "77"
-            },
-            {
-              "Letter": "C",
-              "Number": "78"
-            },
-            {
-              "Letter": "C",
-              "Number": "79"
-            },
-            {
-              "Letter": "C",
-              "Number": "80"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Melee",
-      "Stage": {
-        "Step": 22,
-        "Letter": [
-          "A",
-          "B"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "75"
-            },
-            {
-              "Letter": "C",
-              "Number": "76"
-            },
-            {
-              "Letter": "C",
-              "Number": "77"
-            },
-            {
-              "Letter": "C",
-              "Number": "78"
-            },
-            {
-              "Letter": "C",
-              "Number": "81"
-            },
-            {
-              "Letter": "C",
-              "Number": "82"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Ranged",
-      "Stage": {
-        "Step": 22,
-        "Letter": [
-          "A",
-          "C"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "75"
-            },
-            {
-              "Letter": "C",
-              "Number": "76"
-            },
-            {
-              "Letter": "C",
-              "Number": "77"
-            },
-            {
-              "Letter": "C",
-              "Number": "78"
-            },
-            {
-              "Letter": "C",
-              "Number": "83"
-            },
-            {
-              "Letter": "C",
-              "Number": "84"
-            },
-            {
-              "Letter": "C",
-              "Number": "85"
-            },
-            {
-              "Letter": "C",
-              "Number": "86"
-            },
-            {
-              "Letter": "C",
-              "Number": "87"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        }
-      ],
-      "Name": "Shade Runner",
-      "Stage": {
-        "Step": 22,
-        "Letter": [
-          "A",
-          "D"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "88"
-            },
-            {
-              "Letter": "C",
+              "Letter": "A",
               "Number": "89"
             },
             {
-              "Letter": "C",
-              "Number": "90"
-            },
-            {
-              "Letter": "C",
-              "Number": "91"
-            },
-            {
-              "Letter": "C",
-              "Number": "92"
-            },
-            {
-              "Letter": "C",
-              "Number": "93"
+              "Letter": "A",
+              "Number": "118"
             }
           ],
           "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
+          "GlobalComponentIds": [],
+          "Name": "Backpack Adornment"
         }
       ],
-      "Name": "Warrior Melee",
+      "GlobalComponentIds": [
+        "a3c16e6f-deec-48a5-8331-5aac9455a058",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Chosen",
       "Stage": {
-        "Step": 23,
+        "Step": 3,
         "Letter": [
           "A",
-          "B"
+          "E"
         ]
       }
     },
@@ -1520,242 +359,144 @@
       "Components": [
         {
           "$type": "RequiredBits",
+          "Id": "2a98680c-3e5d-45ee-8742-3e76df505375",
           "Bits": [
             {
-              "Letter": "C",
-              "Number": "88"
-            },
-            {
-              "Letter": "C",
-              "Number": "89"
-            },
-            {
-              "Letter": "C",
-              "Number": "90"
-            },
-            {
-              "Letter": "C",
-              "Number": "91"
-            },
-            {
-              "Letter": "C",
-              "Number": "94"
-            },
-            {
-              "Letter": "C",
-              "Number": "95"
-            },
-            {
-              "Letter": "C",
-              "Number": "96"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Warrior Ranged",
-      "Stage": {
-        "Step": 23,
-        "Letter": [
-          "A",
-          "C"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "88"
-            },
-            {
-              "Letter": "C",
-              "Number": "89"
-            },
-            {
-              "Letter": "C",
-              "Number": "90"
-            },
-            {
-              "Letter": "C",
-              "Number": "91"
-            },
-            {
-              "Letter": "C",
-              "Number": "97"
-            },
-            {
-              "Letter": "C",
-              "Number": "98"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Heavy Gunner With Wraithcannon",
-      "Stage": {
-        "Step": 23,
-        "Letter": [
-          "A",
-          "D"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "88"
-            },
-            {
-              "Letter": "C",
-              "Number": "89"
-            },
-            {
-              "Letter": "C",
-              "Number": "90"
-            },
-            {
-              "Letter": "C",
-              "Number": "91"
-            },
-            {
-              "Letter": "C",
-              "Number": "97"
-            },
-            {
-              "Letter": "C",
-              "Number": "99"
-            }
-          ],
-          "GlobalBitsIds": [],
-          "Name": "Body"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
-          ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
-          "Name": "Backpack"
-        }
-      ],
-      "Name": "Heavy Gunner With Shuriken Cannon",
-      "Stage": {
-        "Step": 23,
-        "Letter": [
-          "A",
-          "D"
-        ]
-      }
-    },
-    {
-      "Components": [
-        {
-          "$type": "RequiredBits",
-          "Bits": [
-            {
-              "Letter": "C",
-              "Number": "100"
-            },
-            {
-              "Letter": "C",
-              "Number": "101"
-            },
-            {
-              "Letter": "C",
-              "Number": "102"
-            },
-            {
-              "Letter": "C",
-              "Number": "103"
-            },
-            {
-              "Letter": "C",
-              "Number": "106"
-            },
-            {
-              "Letter": "C",
+              "Letter": "A",
               "Number": "104"
             },
             {
-              "Letter": "C",
+              "Letter": "A",
               "Number": "105"
+            },
+            {
+              "Letter": "A",
+              "Number": "107"
+            },
+            {
+              "Letter": "A",
+              "Number": "108"
+            },
+            {
+              "Letter": "A",
+              "Number": "114"
+            },
+            {
+              "Letter": "A",
+              "Number": "116"
             }
           ],
           "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Body"
         },
         {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654",
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
+          "$type": "OneFromChild",
+          "Children": [
+            {
+              "$type": "RequiredBits",
+              "Id": "a0402350-59e7-414d-88be-f437868065af",
+              "Bits": [
+                {
+                  "Letter": "A",
+                  "Number": "85"
+                }
+              ],
+              "GlobalBitsIds": [],
+              "GlobalComponentIds": [],
+              "Name": "Tainted Chainsword"
+            },
+            {
+              "$type": "RequiredBits",
+              "Id": "c54515bf-5c6a-4e56-92f3-2fe2783ec568",
+              "Bits": [
+                {
+                  "Letter": "A",
+                  "Number": "109"
+                }
+              ],
+              "GlobalBitsIds": [],
+              "GlobalComponentIds": [],
+              "Name": "Power Weapon"
+            },
+            {
+              "$type": "RequiredBits",
+              "Id": "6a2a52d0-640c-4d0d-af9d-1d18fec417d0",
+              "Bits": [
+                {
+                  "Letter": "A",
+                  "Number": "112"
+                }
+              ],
+              "GlobalBitsIds": [],
+              "GlobalComponentIds": [],
+              "Name": "Power Maul"
+            }
           ],
+          "Id": "d8e3ad4f-b5c0-4dee-979a-e65a69ca9ca6",
+          "Bits": [],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Melee Weapon"
+        },
+        {
+          "$type": "OneFromList",
+          "Id": "63dd9c83-ff8a-48db-bd0d-f206df8fbe8f",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "90"
+            },
+            {
+              "Letter": "A",
+              "Number": "117"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Head"
         },
         {
           "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
+          "Id": "6de53180-52d7-4555-ade3-ab5d82c2a8e6",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "140"
+            },
+            {
+              "Letter": "A",
+              "Number": "143"
+            }
           ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Backpack"
+        },
+        {
+          "$type": "OneFromList",
+          "Id": "7de4424a-ce7a-44f5-b084-df30b312204f",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "89"
+            },
+            {
+              "Letter": "A",
+              "Number": "118"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Backpack Adornment"
         }
       ],
-      "Name": "Warrior Melee",
+      "GlobalComponentIds": [
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Aspiring Champion",
       "Stage": {
-        "Step": 24,
+        "Step": 4,
         "Letter": [
           "A",
           "B"
@@ -1766,65 +507,70 @@
       "Components": [
         {
           "$type": "RequiredBits",
+          "Id": "8b54caa5-a471-4143-8eee-52a0c131cf72",
           "Bits": [
             {
-              "Letter": "C",
-              "Number": "100"
+              "Letter": "A",
+              "Number": "104"
             },
             {
-              "Letter": "C",
-              "Number": "101"
+              "Letter": "A",
+              "Number": "105"
             },
             {
-              "Letter": "C",
-              "Number": "102"
-            },
-            {
-              "Letter": "C",
-              "Number": "103"
-            },
-            {
-              "Letter": "C",
+              "Letter": "A",
               "Number": "106"
             },
             {
-              "Letter": "C",
-              "Number": "107"
+              "Letter": "B",
+              "Number": "23"
             },
             {
-              "Letter": "C",
-              "Number": "108"
+              "Letter": "B",
+              "Number": "24"
             },
             {
-              "Letter": "C",
-              "Number": "109"
+              "Letter": "B",
+              "Number": "25"
+            },
+            {
+              "Letter": "B",
+              "Number": "26"
+            },
+            {
+              "Letter": "B",
+              "Number": "27"
             }
           ],
           "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Body"
         },
         {
           "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "721249f8-a5d4-402b-965b-bf4a04ebed96",
-            "14054891-1e38-4e1e-a57f-b2c5cea92654",
-            "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac"
+          "Id": "8d57930f-f2bb-4bd7-8436-e6b7bf9a3430",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "139"
+            },
+            {
+              "Letter": "A",
+              "Number": "143"
+            }
           ],
-          "Name": "Head"
-        },
-        {
-          "$type": "OneFromList",
-          "Bits": [],
-          "GlobalBitsIds": [
-            "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9"
-          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Backpack"
         }
       ],
-      "Name": "Warrior Ranged",
+      "GlobalComponentIds": [
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Balefire Acolyte",
       "Stage": {
-        "Step": 24,
+        "Step": 4,
         "Letter": [
           "A",
           "C"
@@ -1835,57 +581,1427 @@
       "Components": [
         {
           "$type": "RequiredBits",
+          "Id": "84cf58e8-7b64-4c37-aefa-be402a897575",
           "Bits": [
             {
-              "Letter": "C",
-              "Number": "100"
+              "Letter": "A",
+              "Number": "29"
             },
             {
-              "Letter": "C",
-              "Number": "101"
+              "Letter": "A",
+              "Number": "30"
             },
             {
-              "Letter": "C",
-              "Number": "102"
+              "Letter": "A",
+              "Number": "31"
             },
             {
-              "Letter": "C",
-              "Number": "103"
+              "Letter": "A",
+              "Number": "32"
             },
             {
-              "Letter": "C",
-              "Number": "106"
+              "Letter": "A",
+              "Number": "33"
             },
             {
-              "Letter": "C",
-              "Number": "110"
+              "Letter": "A",
+              "Number": "35"
             },
             {
-              "Letter": "C",
-              "Number": "111"
-            },
-            {
-              "Letter": "C",
-              "Number": "112"
-            },
-            {
-              "Letter": "C",
-              "Number": "113"
-            },
-            {
-              "Letter": "C",
-              "Number": "114"
+              "Letter": "A",
+              "Number": "136"
             }
           ],
           "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
           "Name": "Body"
         }
       ],
-      "Name": "Fate Dealer",
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Ranged",
       "Stage": {
-        "Step": 24,
+        "Step": 5,
         "Letter": [
           "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "52d22b99-b692-4af1-8e70-407c84f8773a",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "29"
+            },
+            {
+              "Letter": "A",
+              "Number": "30"
+            },
+            {
+              "Letter": "A",
+              "Number": "31"
+            },
+            {
+              "Letter": "A",
+              "Number": "32"
+            },
+            {
+              "Letter": "A",
+              "Number": "33"
+            },
+            {
+              "Letter": "A",
+              "Number": "34"
+            },
+            {
+              "Letter": "A",
+              "Number": "136"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Gunner With Melta",
+      "Stage": {
+        "Step": 5,
+        "Letter": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "ab32e6a1-cfa5-4c87-bba0-f677f3ef2c07",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "29"
+            },
+            {
+              "Letter": "A",
+              "Number": "30"
+            },
+            {
+              "Letter": "A",
+              "Number": "31"
+            },
+            {
+              "Letter": "A",
+              "Number": "42"
+            },
+            {
+              "Letter": "A",
+              "Number": "43"
+            },
+            {
+              "Letter": "A",
+              "Number": "136"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Melee",
+      "Stage": {
+        "Step": 5,
+        "Letter": [
+          "A",
+          "D"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "fffa1a7b-1b1b-4731-891c-2070a654debe",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "29"
+            },
+            {
+              "Letter": "A",
+              "Number": "30"
+            },
+            {
+              "Letter": "A",
+              "Number": "31"
+            },
+            {
+              "Letter": "A",
+              "Number": "38"
+            },
+            {
+              "Letter": "A",
+              "Number": "39"
+            },
+            {
+              "Letter": "A",
+              "Number": "40"
+            },
+            {
+              "Letter": "A",
+              "Number": "41"
+            },
+            {
+              "Letter": "A",
+              "Number": "136"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Heavy Gunner With Missile Launcher",
+      "Stage": {
+        "Step": 5,
+        "Letter": [
+          "A",
+          "E"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "655aa523-48b0-4db4-9eee-667b4e3cf4a9",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "29"
+            },
+            {
+              "Letter": "A",
+              "Number": "30"
+            },
+            {
+              "Letter": "A",
+              "Number": "31"
+            },
+            {
+              "Letter": "A",
+              "Number": "136"
+            },
+            {
+              "Letter": "B",
+              "Number": "1"
+            },
+            {
+              "Letter": "B",
+              "Number": "2"
+            },
+            {
+              "Letter": "B",
+              "Number": "3"
+            },
+            {
+              "Letter": "B",
+              "Number": "4"
+            },
+            {
+              "Letter": "B",
+              "Number": "4"
+            },
+            {
+              "Letter": "B",
+              "Number": "6"
+            },
+            {
+              "Letter": "B",
+              "Number": "7"
+            },
+            {
+              "Letter": "B",
+              "Number": "8"
+            },
+            {
+              "Letter": "B",
+              "Number": "28"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Heavy Gunner With Reaper Chaincannon",
+      "Stage": {
+        "Step": 5,
+        "Letter": [
+          "A",
+          "F"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "b18b0377-f0d9-4388-91be-ea20f755722e",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "1"
+            },
+            {
+              "Letter": "A",
+              "Number": "2"
+            },
+            {
+              "Letter": "A",
+              "Number": "3"
+            },
+            {
+              "Letter": "A",
+              "Number": "4"
+            },
+            {
+              "Letter": "A",
+              "Number": "5"
+            },
+            {
+              "Letter": "A",
+              "Number": "131"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Ranged",
+      "Stage": {
+        "Step": 6,
+        "Letter": [
+          "A",
+          "B"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "1cae977e-f5b0-4fec-ba29-9058f5dd36a9",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "1"
+            },
+            {
+              "Letter": "A",
+              "Number": "2"
+            },
+            {
+              "Letter": "A",
+              "Number": "3"
+            },
+            {
+              "Letter": "A",
+              "Number": "6"
+            },
+            {
+              "Letter": "A",
+              "Number": "7"
+            },
+            {
+              "Letter": "A",
+              "Number": "131"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Melee",
+      "Stage": {
+        "Step": 6,
+        "Letter": [
+          "A",
+          "C"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "cfbfaf32-dcb6-4e1e-9f00-bb2de388b5a0",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "1"
+            },
+            {
+              "Letter": "A",
+              "Number": "2"
+            },
+            {
+              "Letter": "A",
+              "Number": "3"
+            },
+            {
+              "Letter": "A",
+              "Number": "131"
+            },
+            {
+              "Letter": "B",
+              "Number": "13"
+            },
+            {
+              "Letter": "B",
+              "Number": "14"
+            },
+            {
+              "Letter": "B",
+              "Number": "15"
+            },
+            {
+              "Letter": "B",
+              "Number": "16"
+            },
+            {
+              "Letter": "B",
+              "Number": "17"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [],
+      "Name": "Shrivetalon",
+      "Stage": {
+        "Step": 6,
+        "Letter": [
+          "A",
+          "D"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "49df13d4-4ebd-4b8b-8c4d-f27b88519217",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "44"
+            },
+            {
+              "Letter": "A",
+              "Number": "45"
+            },
+            {
+              "Letter": "A",
+              "Number": "46"
+            },
+            {
+              "Letter": "A",
+              "Number": "49"
+            },
+            {
+              "Letter": "A",
+              "Number": "50"
+            },
+            {
+              "Letter": "A",
+              "Number": "138"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Ranged",
+      "Stage": {
+        "Step": 7,
+        "Letter": [
+          "A",
+          "B",
+          "E"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "90289cf7-749b-47a2-a8f7-bc86cff69f0c",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "44"
+            },
+            {
+              "Letter": "A",
+              "Number": "45"
+            },
+            {
+              "Letter": "A",
+              "Number": "46"
+            },
+            {
+              "Letter": "A",
+              "Number": "47"
+            },
+            {
+              "Letter": "A",
+              "Number": "48"
+            },
+            {
+              "Letter": "A",
+              "Number": "138"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Melee",
+      "Stage": {
+        "Step": 7,
+        "Letter": [
+          "A",
+          "C",
+          "E"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "1ee80c3f-08df-4671-b526-072d64662e29",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "44"
+            },
+            {
+              "Letter": "A",
+              "Number": "45"
+            },
+            {
+              "Letter": "A",
+              "Number": "46"
+            },
+            {
+              "Letter": "A",
+              "Number": "138"
+            },
+            {
+              "Letter": "B",
+              "Number": "9"
+            },
+            {
+              "Letter": "B",
+              "Number": "10"
+            },
+            {
+              "Letter": "B",
+              "Number": "11"
+            },
+            {
+              "Letter": "B",
+              "Number": "12"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Butcher",
+      "Stage": {
+        "Step": 7,
+        "Letter": [
+          "A",
+          "D",
+          "E"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "8a43ae2c-3fc6-4f67-8bdf-86ea29967f56",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "8"
+            },
+            {
+              "Letter": "A",
+              "Number": "53"
+            },
+            {
+              "Letter": "A",
+              "Number": "54"
+            },
+            {
+              "Letter": "A",
+              "Number": "58"
+            },
+            {
+              "Letter": "A",
+              "Number": "59"
+            },
+            {
+              "Letter": "A",
+              "Number": "142"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Ranged",
+      "Stage": {
+        "Step": 8,
+        "Letter": [
+          "A",
+          "B",
+          "E"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "ad2cbf15-c4bf-4b3f-804f-1e5e88658861",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "8"
+            },
+            {
+              "Letter": "A",
+              "Number": "53"
+            },
+            {
+              "Letter": "A",
+              "Number": "54"
+            },
+            {
+              "Letter": "A",
+              "Number": "56"
+            },
+            {
+              "Letter": "A",
+              "Number": "57"
+            },
+            {
+              "Letter": "A",
+              "Number": "142"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Melee",
+      "Stage": {
+        "Step": 8,
+        "Letter": [
+          "A",
+          "C",
+          "E"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "4a0c9790-5c75-4156-93d1-ab91aeec008a",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "8"
+            },
+            {
+              "Letter": "A",
+              "Number": "53"
+            },
+            {
+              "Letter": "A",
+              "Number": "54"
+            },
+            {
+              "Letter": "A",
+              "Number": "142"
+            },
+            {
+              "Letter": "B",
+              "Number": "18"
+            },
+            {
+              "Letter": "B",
+              "Number": "19"
+            },
+            {
+              "Letter": "B",
+              "Number": "20"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Anointed",
+      "Stage": {
+        "Step": 8,
+        "Letter": [
+          "A",
+          "D",
+          "E"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "fcbc64d2-3925-4179-809a-5e5385c46fea",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "62"
+            },
+            {
+              "Letter": "A",
+              "Number": "63"
+            },
+            {
+              "Letter": "A",
+              "Number": "64"
+            },
+            {
+              "Letter": "A",
+              "Number": "73"
+            },
+            {
+              "Letter": "A",
+              "Number": "74"
+            },
+            {
+              "Letter": "A",
+              "Number": "76"
+            },
+            {
+              "Letter": "A",
+              "Number": "139"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        },
+        {
+          "$type": "OneFromList",
+          "Id": "cf177210-5581-4585-a13a-e6d12fcf28ce",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "77"
+            },
+            {
+              "Letter": "A",
+              "Number": "121"
+            },
+            {
+              "Letter": "A",
+              "Number": "141"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Backpack Adornment"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Ranged",
+      "Stage": {
+        "Step": 9,
+        "Letter": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "eb9b9e38-05b7-4bd3-9bd1-5727ee2c5b3c",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "62"
+            },
+            {
+              "Letter": "A",
+              "Number": "63"
+            },
+            {
+              "Letter": "A",
+              "Number": "64"
+            },
+            {
+              "Letter": "A",
+              "Number": "73"
+            },
+            {
+              "Letter": "A",
+              "Number": "74"
+            },
+            {
+              "Letter": "A",
+              "Number": "75"
+            },
+            {
+              "Letter": "A",
+              "Number": "139"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        },
+        {
+          "$type": "OneFromList",
+          "Id": "f8947f95-3209-42a4-ba38-e8d8834454e9",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "77"
+            },
+            {
+              "Letter": "A",
+              "Number": "121"
+            },
+            {
+              "Letter": "A",
+              "Number": "141"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Backpack Adornment"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Gunner With Plasma",
+      "Stage": {
+        "Step": 9,
+        "Letter": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "59e6b6fc-05a4-46db-b412-80619f3743b8",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "62"
+            },
+            {
+              "Letter": "A",
+              "Number": "63"
+            },
+            {
+              "Letter": "A",
+              "Number": "64"
+            },
+            {
+              "Letter": "A",
+              "Number": "65"
+            },
+            {
+              "Letter": "A",
+              "Number": "66"
+            },
+            {
+              "Letter": "A",
+              "Number": "67"
+            },
+            {
+              "Letter": "A",
+              "Number": "68"
+            },
+            {
+              "Letter": "A",
+              "Number": "69"
+            },
+            {
+              "Letter": "A",
+              "Number": "70"
+            },
+            {
+              "Letter": "A",
+              "Number": "139"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Heavy Gunner With Heavy Bolter",
+      "Stage": {
+        "Step": 9,
+        "Letter": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "51b6b80f-22ce-4ff6-97f5-41286483e5e5",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "94"
+            },
+            {
+              "Letter": "A",
+              "Number": "95"
+            },
+            {
+              "Letter": "A",
+              "Number": "96"
+            },
+            {
+              "Letter": "A",
+              "Number": "97"
+            },
+            {
+              "Letter": "A",
+              "Number": "98"
+            },
+            {
+              "Letter": "A",
+              "Number": "99"
+            },
+            {
+              "Letter": "A",
+              "Number": "100"
+            },
+            {
+              "Letter": "A",
+              "Number": "137"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Ranged",
+      "Stage": {
+        "Step": 10,
+        "Letter": [
+          "A",
+          "B"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "9c115209-fc59-4557-82bc-aacf7c473fa3",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "94"
+            },
+            {
+              "Letter": "A",
+              "Number": "95"
+            },
+            {
+              "Letter": "A",
+              "Number": "96"
+            },
+            {
+              "Letter": "A",
+              "Number": "97"
+            },
+            {
+              "Letter": "A",
+              "Number": "98"
+            },
+            {
+              "Letter": "A",
+              "Number": "101"
+            },
+            {
+              "Letter": "A",
+              "Number": "137"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Gunner With Flamer",
+      "Stage": {
+        "Step": 10,
+        "Letter": [
+          "A",
+          "B"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "f4553d8f-6d43-436a-81cb-695b0fcb8115",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "20"
+            },
+            {
+              "Letter": "A",
+              "Number": "21"
+            },
+            {
+              "Letter": "A",
+              "Number": "22"
+            },
+            {
+              "Letter": "A",
+              "Number": "23"
+            },
+            {
+              "Letter": "A",
+              "Number": "24"
+            },
+            {
+              "Letter": "A",
+              "Number": "133"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Ranged",
+      "Stage": {
+        "Step": 11,
+        "Letter": [
+          "A",
+          "B",
+          "D"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "b8e0f92a-7d66-42e3-b563-071d37e93b7a",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "20"
+            },
+            {
+              "Letter": "A",
+              "Number": "21"
+            },
+            {
+              "Letter": "A",
+              "Number": "22"
+            },
+            {
+              "Letter": "A",
+              "Number": "25"
+            },
+            {
+              "Letter": "A",
+              "Number": "26"
+            },
+            {
+              "Letter": "A",
+              "Number": "133"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Melee",
+      "Stage": {
+        "Step": 11,
+        "Letter": [
+          "A",
+          "C",
+          "D"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "a5567755-a9ca-4e9f-b5a8-98caecba0fdd",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "20"
+            },
+            {
+              "Letter": "A",
+              "Number": "21"
+            },
+            {
+              "Letter": "A",
+              "Number": "22"
+            },
+            {
+              "Letter": "A",
+              "Number": "23"
+            },
+            {
+              "Letter": "A",
+              "Number": "24"
+            },
+            {
+              "Letter": "A",
+              "Number": "133"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        },
+        {
+          "$type": "OneFromList",
+          "Id": "2441c502-1074-4e01-8f97-a482788bed0d",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "134"
+            },
+            {
+              "Letter": "A",
+              "Number": "135"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Icon"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Ranged Icon Bearer",
+      "Stage": {
+        "Step": 11,
+        "Letter": [
+          "A",
+          "B",
+          "D",
+          "E"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "c2bb582f-f5b6-407f-acbc-5747ef8c219d",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "20"
+            },
+            {
+              "Letter": "A",
+              "Number": "21"
+            },
+            {
+              "Letter": "A",
+              "Number": "22"
+            },
+            {
+              "Letter": "A",
+              "Number": "25"
+            },
+            {
+              "Letter": "A",
+              "Number": "26"
+            },
+            {
+              "Letter": "A",
+              "Number": "133"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Melee Icon Bearer",
+      "Stage": {
+        "Step": 11,
+        "Letter": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "8163b984-8e16-48c2-a13a-173f4f815485",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "10"
+            },
+            {
+              "Letter": "A",
+              "Number": "11"
+            },
+            {
+              "Letter": "A",
+              "Number": "12"
+            },
+            {
+              "Letter": "A",
+              "Number": "13"
+            },
+            {
+              "Letter": "A",
+              "Number": "14"
+            },
+            {
+              "Letter": "A",
+              "Number": "15"
+            },
+            {
+              "Letter": "A",
+              "Number": "132"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Ranged",
+      "Stage": {
+        "Step": 12,
+        "Letter": [
+          "A",
+          "B",
+          "D"
+        ]
+      }
+    },
+    {
+      "Components": [
+        {
+          "$type": "RequiredBits",
+          "Id": "5a3c9bbe-9f61-4820-bd7c-8426d5e2d7dc",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "10"
+            },
+            {
+              "Letter": "A",
+              "Number": "11"
+            },
+            {
+              "Letter": "A",
+              "Number": "12"
+            },
+            {
+              "Letter": "A",
+              "Number": "16"
+            },
+            {
+              "Letter": "A",
+              "Number": "17"
+            },
+            {
+              "Letter": "A",
+              "Number": "132"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Body"
+        }
+      ],
+      "GlobalComponentIds": [
+        "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+        "e262118d-9e86-4dea-b9de-71525fb476be",
+        "32ee2cf3-8733-45db-8c95-5b4c67ca55a0"
+      ],
+      "Name": "Warrior Melee",
+      "Stage": {
+        "Step": 12,
+        "Letter": [
+          "A",
+          "C",
           "D"
         ]
       }
@@ -1893,132 +2009,347 @@
   ],
   "GlobalBits": [
     {
-      "Id": "aba1fdd7-f529-486a-a4b3-e544ad2fa6a9",
-      "Name": "BackPacks14",
+      "Id": "421b5f07-4ee6-40db-a5ad-3ecb8064ec95",
+      "Name": "Heads1",
       "Bits": [
         {
-          "Letter": "C",
-          "Number": "149"
+          "Letter": "A",
+          "Number": "119"
         },
         {
-          "Letter": "C",
-          "Number": "150"
+          "Letter": "A",
+          "Number": "120"
         },
         {
-          "Letter": "C",
-          "Number": "152"
+          "Letter": "A",
+          "Number": "121"
         },
         {
-          "Letter": "C",
-          "Number": "153"
+          "Letter": "A",
+          "Number": "122"
         },
         {
-          "Letter": "C",
-          "Number": "154"
+          "Letter": "A",
+          "Number": "123"
         },
         {
-          "Letter": "C",
-          "Number": "155"
+          "Letter": "A",
+          "Number": "124"
         },
         {
-          "Letter": "C",
-          "Number": "156"
+          "Letter": "A",
+          "Number": "125"
         },
         {
-          "Letter": "C",
-          "Number": "157"
-        }
-      ]
-    },
-    {
-      "Id": "721249f8-a5d4-402b-965b-bf4a04ebed96",
-      "Name": "SharedHeads15A",
-      "Bits": [
-        {
-          "Letter": "C",
-          "Number": "139"
+          "Letter": "A",
+          "Number": "126"
         },
         {
-          "Letter": "C",
-          "Number": "140"
+          "Letter": "A",
+          "Number": "127"
         },
         {
-          "Letter": "C",
-          "Number": "141"
-        },
-        {
-          "Letter": "C",
-          "Number": "142"
-        },
-        {
-          "Letter": "C",
-          "Number": "143"
-        },
-        {
-          "Letter": "C",
-          "Number": "144"
-        },
-        {
-          "Letter": "C",
-          "Number": "145"
-        },
-        {
-          "Letter": "C",
-          "Number": "146"
-        },
-        {
-          "Letter": "C",
-          "Number": "147"
-        }
-      ]
-    },
-    {
-      "Id": "14054891-1e38-4e1e-a57f-b2c5cea92654",
-      "Name": "SharedHeads15B",
-      "Bits": [
-        {
-          "Letter": "C",
-          "Number": "133"
-        },
-        {
-          "Letter": "C",
-          "Number": "134"
-        },
-        {
-          "Letter": "C",
-          "Number": "135"
-        },
-        {
-          "Letter": "C",
-          "Number": "136"
-        }
-      ]
-    },
-    {
-      "Id": "056a4dc6-56d4-4d8c-8457-ed7f4aa2f8ac",
-      "Name": "SharedHeads15C",
-      "Bits": [
-        {
-          "Letter": "C",
+          "Letter": "A",
           "Number": "128"
         },
         {
-          "Letter": "C",
+          "Letter": "A",
           "Number": "129"
-        },
-        {
-          "Letter": "C",
-          "Number": "130"
-        },
-        {
-          "Letter": "C",
-          "Number": "131"
-        },
-        {
-          "Letter": "C",
-          "Number": "132"
         }
       ]
+    },
+    {
+      "Id": "419cc0ea-3960-4f38-a5ff-4b6b3eb9a2a2",
+      "Name": "PauldronA",
+      "Bits": [
+        {
+          "Letter": "A",
+          "Number": "8"
+        },
+        {
+          "Letter": "A",
+          "Number": "18"
+        },
+        {
+          "Letter": "A",
+          "Number": "28"
+        },
+        {
+          "Letter": "A",
+          "Number": "36"
+        },
+        {
+          "Letter": "A",
+          "Number": "52"
+        },
+        {
+          "Letter": "A",
+          "Number": "61"
+        },
+        {
+          "Letter": "A",
+          "Number": "72"
+        },
+        {
+          "Letter": "A",
+          "Number": "87"
+        },
+        {
+          "Letter": "A",
+          "Number": "96"
+        },
+        {
+          "Letter": "A",
+          "Number": "102"
+        },
+        {
+          "Letter": "A",
+          "Number": "115"
+        }
+      ]
+    },
+    {
+      "Id": "e806cb2f-7573-4815-9fb4-caaebd71e2b0",
+      "Name": "PauldronB",
+      "Bits": [
+        {
+          "Letter": "A",
+          "Number": "9"
+        },
+        {
+          "Letter": "A",
+          "Number": "19"
+        },
+        {
+          "Letter": "A",
+          "Number": "27"
+        },
+        {
+          "Letter": "A",
+          "Number": "37"
+        },
+        {
+          "Letter": "A",
+          "Number": "51"
+        },
+        {
+          "Letter": "A",
+          "Number": "60"
+        },
+        {
+          "Letter": "A",
+          "Number": "71"
+        },
+        {
+          "Letter": "A",
+          "Number": "86"
+        },
+        {
+          "Letter": "A",
+          "Number": "103"
+        },
+        {
+          "Letter": "A",
+          "Number": "113"
+        }
+      ]
+    }
+  ],
+  "GlobalComponents": [
+    {
+      "$type": "OneFromChild",
+      "Children": [
+        {
+          "$type": "OneFromList",
+          "Id": "a0ef6bbd-5bfb-4213-8e29-c0c3e7c1aab1",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "110"
+            },
+            {
+              "Letter": "A",
+              "Number": "91"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Plasma Pistol"
+        },
+        {
+          "$type": "RequiredBits",
+          "Id": "117302ae-ad89-43be-9907-70c52724967c",
+          "Bits": [
+            {
+              "Letter": "A",
+              "Number": "83"
+            }
+          ],
+          "GlobalBitsIds": [],
+          "GlobalComponentIds": [],
+          "Name": "Tainted Bolt Pistol"
+        }
+      ],
+      "Id": "a3c16e6f-deec-48a5-8331-5aac9455a058",
+      "Bits": [],
+      "GlobalBitsIds": [],
+      "GlobalComponentIds": [],
+      "Name": "Pistol"
+    },
+    {
+      "$type": "OneFromList",
+      "Id": "32ee2cf3-8733-45db-8c95-5b4c67ca55a0",
+      "Bits": [
+        {
+          "Letter": "A",
+          "Number": "9"
+        },
+        {
+          "Letter": "A",
+          "Number": "19"
+        },
+        {
+          "Letter": "A",
+          "Number": "27"
+        },
+        {
+          "Letter": "A",
+          "Number": "37"
+        },
+        {
+          "Letter": "A",
+          "Number": "51"
+        },
+        {
+          "Letter": "A",
+          "Number": "60"
+        },
+        {
+          "Letter": "A",
+          "Number": "71"
+        },
+        {
+          "Letter": "A",
+          "Number": "86"
+        },
+        {
+          "Letter": "A",
+          "Number": "103"
+        },
+        {
+          "Letter": "A",
+          "Number": "113"
+        }
+      ],
+      "GlobalBitsIds": [],
+      "GlobalComponentIds": [],
+      "Name": "Left Sholder"
+    },
+    {
+      "$type": "OneFromList",
+      "Id": "e262118d-9e86-4dea-b9de-71525fb476be",
+      "Bits": [
+        {
+          "Letter": "A",
+          "Number": "8"
+        },
+        {
+          "Letter": "A",
+          "Number": "18"
+        },
+        {
+          "Letter": "A",
+          "Number": "28"
+        },
+        {
+          "Letter": "A",
+          "Number": "36"
+        },
+        {
+          "Letter": "A",
+          "Number": "52"
+        },
+        {
+          "Letter": "A",
+          "Number": "61"
+        },
+        {
+          "Letter": "A",
+          "Number": "72"
+        },
+        {
+          "Letter": "A",
+          "Number": "87"
+        },
+        {
+          "Letter": "A",
+          "Number": "96"
+        },
+        {
+          "Letter": "A",
+          "Number": "102"
+        },
+        {
+          "Letter": "A",
+          "Number": "115"
+        }
+      ],
+      "GlobalBitsIds": [],
+      "GlobalComponentIds": [],
+      "Name": "Right Sholder"
+    },
+    {
+      "$type": "OneFromList",
+      "Id": "af3bce15-4240-4535-89dd-42a0ba9b3f5b",
+      "Bits": [
+        {
+          "Letter": "A",
+          "Number": "119"
+        },
+        {
+          "Letter": "A",
+          "Number": "120"
+        },
+        {
+          "Letter": "A",
+          "Number": "121"
+        },
+        {
+          "Letter": "A",
+          "Number": "122"
+        },
+        {
+          "Letter": "A",
+          "Number": "123"
+        },
+        {
+          "Letter": "A",
+          "Number": "124"
+        },
+        {
+          "Letter": "A",
+          "Number": "125"
+        },
+        {
+          "Letter": "A",
+          "Number": "126"
+        },
+        {
+          "Letter": "A",
+          "Number": "127"
+        },
+        {
+          "Letter": "A",
+          "Number": "128"
+        },
+        {
+          "Letter": "A",
+          "Number": "129"
+        }
+      ],
+      "GlobalBitsIds": [],
+      "GlobalComponentIds": [],
+      "Name": "Head"
     }
   ]
 }
