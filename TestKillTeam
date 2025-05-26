@@ -1,0 +1,489 @@
+{
+  "Name": "TestKillTeam",
+  "GlobalBits": [
+    {
+      "Id": "550e8400-e29b-41d4-a716-446655440001",
+      "Name": "Basic Weapons Cache",
+      "Bits": [
+        { "Letter": "A", "Number": "1", "Count": 2 },
+        { "Letter": "A", "Number": "2", "Count": 1 },
+        { "Letter": "B", "Number": "1", "Count": 3 }
+      ]
+    },
+    {
+      "Id": "550e8400-e29b-41d4-a716-446655440002",
+      "Name": "Advanced Equipment",
+      "Bits": [
+        { "Letter": "C", "Number": "1", "Count": 1 },
+        { "Letter": "C", "Number": "2", "Count": 2 },
+        { "Letter": "D", "Number": "1", "Count": 1 }
+      ]
+    },
+    {
+      "Id": "550e8400-e29b-41d4-a716-446655440003",
+      "Name": "Special Accessories",
+      "Bits": [
+        { "Letter": "E", "Number": "1", "Count": 1 },
+        { "Letter": "E", "Number": "2", "Count": 1 },
+        { "Letter": "F", "Number": "1", "Count": 2 }
+      ]
+    }
+  ],
+  "GlobalComponents": [
+    {
+      "Id": "660e8400-e29b-41d4-a716-446655440001",
+      "Name": "Standard Equipment Package",
+      "Component": {
+        "Type": "RequiredBits",
+        "Name": "Basic Gear",
+        "Bits": [
+          { "Letter": "G", "Number": "1", "Count": 1 },
+          { "Letter": "G", "Number": "2", "Count": 1 }
+        ],
+        "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440001"],
+        "Children": []
+      }
+    },
+    {
+      "Id": "660e8400-e29b-41d4-a716-446655440002",
+      "Name": "Weapon Selection System",
+      "Component": {
+        "Type": "OneFromChild",
+        "Name": "Weapon Choice",
+        "Bits": [],
+        "GlobalBitsIds": [],
+        "Children": [
+          {
+            "Type": "RequiredBits",
+            "Name": "Ranged Weapons",
+            "Bits": [
+              { "Letter": "W", "Number": "1", "Count": 1 },
+              { "Letter": "W", "Number": "2", "Count": 1 }
+            ],
+            "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440002"],
+            "Children": []
+          },
+          {
+            "Type": "RequiredBits",
+            "Name": "Melee Weapons",
+            "Bits": [
+              { "Letter": "M", "Number": "1", "Count": 1 },
+              { "Letter": "M", "Number": "2", "Count": 1 }
+            ],
+            "GlobalBitsIds": [],
+            "Children": []
+          }
+        ]
+      }
+    },
+    {
+      "Id": "660e8400-e29b-41d4-a716-446655440003",
+      "Name": "Advanced Customization",
+      "Component": {
+        "Type": "OneFromChild",
+        "Name": "Customization Options",
+        "Bits": [],
+        "GlobalBitsIds": [],
+        "Children": [
+          {
+            "Type": "OneFromList",
+            "Name": "Upgrade Options",
+            "Bits": [
+              { "Letter": "U", "Number": "1", "Count": 1 },
+              { "Letter": "U", "Number": "2", "Count": 1 },
+              { "Letter": "U", "Number": "3", "Count": 1 }
+            ],
+            "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440003"],
+            "Children": []
+          },
+          {
+            "Type": "OneFromChild",
+            "Name": "Nested Customization",
+            "Bits": [],
+            "GlobalBitsIds": [],
+            "Children": [
+              {
+                "Type": "RequiredBits",
+                "Name": "Armor Variant A",
+                "Bits": [
+                  { "Letter": "AA", "Number": "1", "Count": 1 }
+                ],
+                "GlobalBitsIds": [],
+                "Children": []
+              },
+              {
+                "Type": "RequiredBits",
+                "Name": "Armor Variant B",
+                "Bits": [
+                  { "Letter": "AB", "Number": "1", "Count": 1 }
+                ],
+                "GlobalBitsIds": [],
+                "Children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "Operatives": [
+    {
+      "Name": "Leader - Alpha",
+      "Stage": {
+        "Step": 1,
+        "Letter": ["A", "B"]
+      },
+      "GlobalComponentIds": [
+        "660e8400-e29b-41d4-a716-446655440001",
+        "660e8400-e29b-41d4-a716-446655440002"
+      ],
+      "Components": [
+        {
+          "Type": "RequiredBits",
+          "Name": "Base Equipment",
+          "Bits": [
+            { "Letter": "L", "Number": "1", "Count": 1 },
+            { "Letter": "L", "Number": "2", "Count": 1 },
+            { "Letter": "L", "Number": "3", "Count": 2 }
+          ],
+          "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440001"],
+          "Children": []
+        },
+        {
+          "Type": "OneFromList",
+          "Name": "Leadership Gear",
+          "Bits": [
+            { "Letter": "LD", "Number": "1", "Count": 1 },
+            { "Letter": "LD", "Number": "2", "Count": 1 },
+            { "Letter": "LD", "Number": "3", "Count": 1 }
+          ],
+          "GlobalBitsIds": [],
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Specialist - Beta",
+      "Stage": {
+        "Step": 1,
+        "Letter": ["A"]
+      },
+      "GlobalComponentIds": [
+        "660e8400-e29b-41d4-a716-446655440001"
+      ],
+      "Components": [
+        {
+          "Type": "RequiredBits",
+          "Name": "Specialist Base",
+          "Bits": [
+            { "Letter": "S", "Number": "1", "Count": 1 },
+            { "Letter": "S", "Number": "2", "Count": 1 }
+          ],
+          "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440002"],
+          "Children": []
+        },
+        {
+          "Type": "OneFromChild",
+          "Name": "Specialist Role",
+          "Bits": [],
+          "GlobalBitsIds": [],
+          "Children": [
+            {
+              "Type": "RequiredBits",
+              "Name": "Sniper Configuration",
+              "Bits": [
+                { "Letter": "SN", "Number": "1", "Count": 1 },
+                { "Letter": "SN", "Number": "2", "Count": 1 }
+              ],
+              "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440003"],
+              "Children": []
+            },
+            {
+              "Type": "RequiredBits",
+              "Name": "Heavy Weapons Configuration",
+              "Bits": [
+                { "Letter": "HW", "Number": "1", "Count": 1 },
+                { "Letter": "HW", "Number": "2", "Count": 2 }
+              ],
+              "GlobalBitsIds": [],
+              "Children": []
+            },
+            {
+              "Type": "OneFromChild",
+              "Name": "Support Configuration",
+              "Bits": [],
+              "GlobalBitsIds": [],
+              "Children": [
+                {
+                  "Type": "RequiredBits",
+                  "Name": "Medical Support",
+                  "Bits": [
+                    { "Letter": "MED", "Number": "1", "Count": 1 }
+                  ],
+                  "GlobalBitsIds": [],
+                  "Children": []
+                },
+                {
+                  "Type": "OneFromList",
+                  "Name": "Technical Support",
+                  "Bits": [
+                    { "Letter": "TECH", "Number": "1", "Count": 1 },
+                    { "Letter": "TECH", "Number": "2", "Count": 1 },
+                    { "Letter": "TECH", "Number": "3", "Count": 1 }
+                  ],
+                  "GlobalBitsIds": [],
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Trooper - Gamma",
+      "Stage": {
+        "Step": 2,
+        "Letter": ["A", "B", "C"]
+      },
+      "GlobalComponentIds": [
+        "660e8400-e29b-41d4-a716-446655440001",
+        "660e8400-e29b-41d4-a716-446655440003"
+      ],
+      "Components": [
+        {
+          "Type": "RequiredBits",
+          "Name": "Standard Trooper Kit",
+          "Bits": [
+            { "Letter": "T", "Number": "1", "Count": 1 },
+            { "Letter": "T", "Number": "2", "Count": 1 },
+            { "Letter": "T", "Number": "3", "Count": 1 }
+          ],
+          "GlobalBitsIds": [],
+          "Children": []
+        },
+        {
+          "Type": "OneFromList",
+          "Name": "Weapon Selection",
+          "Bits": [
+            { "Letter": "TW", "Number": "1", "Count": 1 },
+            { "Letter": "TW", "Number": "2", "Count": 1 },
+            { "Letter": "TW", "Number": "3", "Count": 1 },
+            { "Letter": "TW", "Number": "4", "Count": 1 }
+          ],
+          "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440001"],
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Scout - Delta",
+      "Stage": {
+        "Step": 2,
+        "Letter": ["B"]
+      },
+      "GlobalComponentIds": [],
+      "Components": [
+        {
+          "Type": "RequiredBits",
+          "Name": "Scout Base Equipment",
+          "Bits": [
+            { "Letter": "SC", "Number": "1", "Count": 1 },
+            { "Letter": "SC", "Number": "2", "Count": 2 }
+          ],
+          "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440002"],
+          "Children": []
+        },
+        {
+          "Type": "OneFromChild",
+          "Name": "Scout Specialization",
+          "Bits": [],
+          "GlobalBitsIds": [],
+          "Children": [
+            {
+              "Type": "OneFromList",
+              "Name": "Stealth Package",
+              "Bits": [
+                { "Letter": "ST", "Number": "1", "Count": 1 },
+                { "Letter": "ST", "Number": "2", "Count": 1 },
+                { "Letter": "ST", "Number": "3", "Count": 1 }
+              ],
+              "GlobalBitsIds": [],
+              "Children": []
+            },
+            {
+              "Type": "OneFromList",
+              "Name": "Reconnaissance Package",
+              "Bits": [
+                { "Letter": "RC", "Number": "1", "Count": 1 },
+                { "Letter": "RC", "Number": "2", "Count": 1 }
+              ],
+              "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440003"],
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Heavy - Echo",
+      "Stage": {
+        "Step": 3,
+        "Letter": ["A"]
+      },
+      "GlobalComponentIds": [
+        "660e8400-e29b-41d4-a716-446655440002"
+      ],
+      "Components": [
+        {
+          "Type": "RequiredBits",
+          "Name": "Heavy Armor",
+          "Bits": [
+            { "Letter": "HA", "Number": "1", "Count": 1 },
+            { "Letter": "HA", "Number": "2", "Count": 1 },
+            { "Letter": "HA", "Number": "3", "Count": 2 }
+          ],
+          "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440001", "550e8400-e29b-41d4-a716-446655440002"],
+          "Children": []
+        },
+        {
+          "Type": "OneFromChild",
+          "Name": "Heavy Weapons Platform",
+          "Bits": [],
+          "GlobalBitsIds": [],
+          "Children": [
+            {
+              "Type": "RequiredBits",
+              "Name": "Plasma Cannon",
+              "Bits": [
+                { "Letter": "PC", "Number": "1", "Count": 1 },
+                { "Letter": "PC", "Number": "2", "Count": 1 }
+              ],
+              "GlobalBitsIds": [],
+              "Children": []
+            },
+            {
+              "Type": "RequiredBits",
+              "Name": "Missile Launcher",
+              "Bits": [
+                { "Letter": "ML", "Number": "1", "Count": 1 },
+                { "Letter": "ML", "Number": "2", "Count": 2 }
+              ],
+              "GlobalBitsIds": [],
+              "Children": []
+            },
+            {
+              "Type": "OneFromChild",
+              "Name": "Modular Heavy Weapon",
+              "Bits": [],
+              "GlobalBitsIds": [],
+              "Children": [
+                {
+                  "Type": "RequiredBits",
+                  "Name": "Base Platform",
+                  "Bits": [
+                    { "Letter": "MHW", "Number": "1", "Count": 1 }
+                  ],
+                  "GlobalBitsIds": [],
+                  "Children": []
+                },
+                {
+                  "Type": "OneFromList",
+                  "Name": "Weapon Module",
+                  "Bits": [
+                    { "Letter": "MHW", "Number": "2", "Count": 1 },
+                    { "Letter": "MHW", "Number": "3", "Count": 1 },
+                    { "Letter": "MHW", "Number": "4", "Count": 1 }
+                  ],
+                  "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440003"],
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Veteran - Foxtrot",
+      "Stage": {
+        "Step": 3,
+        "Letter": ["B", "C"]
+      },
+      "GlobalComponentIds": [
+        "660e8400-e29b-41d4-a716-446655440001",
+        "660e8400-e29b-41d4-a716-446655440003"
+      ],
+      "Components": [
+        {
+          "Type": "RequiredBits",
+          "Name": "Veteran Equipment",
+          "Bits": [
+            { "Letter": "V", "Number": "1", "Count": 1 },
+            { "Letter": "V", "Number": "2", "Count": 1 }
+          ],
+          "GlobalBitsIds": [],
+          "Children": []
+        },
+        {
+          "Type": "OneFromList",
+          "Name": "Veteran Expertise",
+          "Bits": [
+            { "Letter": "VE", "Number": "1", "Count": 1 },
+            { "Letter": "VE", "Number": "2", "Count": 1 },
+            { "Letter": "VE", "Number": "3", "Count": 1 },
+            { "Letter": "VE", "Number": "4", "Count": 1 },
+            { "Letter": "VE", "Number": "5", "Count": 1 }
+          ],
+          "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440002"],
+          "Children": []
+        },
+        {
+          "Type": "OneFromChild",
+          "Name": "Veteran Special Equipment",
+          "Bits": [],
+          "GlobalBitsIds": [],
+          "Children": [
+            {
+              "Type": "OneFromList",
+              "Name": "Combat Modifications",
+              "Bits": [
+                { "Letter": "CM", "Number": "1", "Count": 1 },
+                { "Letter": "CM", "Number": "2", "Count": 1 },
+                { "Letter": "CM", "Number": "3", "Count": 1 }
+              ],
+              "GlobalBitsIds": [],
+              "Children": []
+            },
+            {
+              "Type": "OneFromChild",
+              "Name": "Advanced Systems",
+              "Bits": [],
+              "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440003"],
+              "Children": [
+                {
+                  "Type": "RequiredBits",
+                  "Name": "Targeting System",
+                  "Bits": [
+                    { "Letter": "TS", "Number": "1", "Count": 1 }
+                  ],
+                  "GlobalBitsIds": [],
+                  "Children": []
+                },
+                {
+                  "Type": "RequiredBits",
+                  "Name": "Shield Generator",
+                  "Bits": [
+                    { "Letter": "SG", "Number": "1", "Count": 1 }
+                  ],
+                  "GlobalBitsIds": [],
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
