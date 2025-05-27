@@ -1,5 +1,5 @@
 {
-  "Name": "TestKillTeam",
+  "Name": "Test Kill Team - Comprehensive",
   "GlobalBits": [
     {
       "Id": "550e8400-e29b-41d4-a716-446655440001",
@@ -34,7 +34,7 @@
       "Id": "660e8400-e29b-41d4-a716-446655440001",
       "Name": "Standard Equipment Package",
       "Component": {
-        "Type": "RequiredBits",
+        "$type": "RequiredBits",
         "Name": "Basic Gear",
         "Bits": [
           { "Letter": "G", "Number": "1", "Count": 1 },
@@ -48,13 +48,13 @@
       "Id": "660e8400-e29b-41d4-a716-446655440002",
       "Name": "Weapon Selection System",
       "Component": {
-        "Type": "OneFromChild",
+        "$type": "OneFromChild",
         "Name": "Weapon Choice",
         "Bits": [],
         "GlobalBitsIds": [],
         "Children": [
           {
-            "Type": "RequiredBits",
+            "$type": "RequiredBits",
             "Name": "Ranged Weapons",
             "Bits": [
               { "Letter": "W", "Number": "1", "Count": 1 },
@@ -64,7 +64,7 @@
             "Children": []
           },
           {
-            "Type": "RequiredBits",
+            "$type": "RequiredBits",
             "Name": "Melee Weapons",
             "Bits": [
               { "Letter": "M", "Number": "1", "Count": 1 },
@@ -80,13 +80,13 @@
       "Id": "660e8400-e29b-41d4-a716-446655440003",
       "Name": "Advanced Customization",
       "Component": {
-        "Type": "OneFromChild",
+        "$type": "OneFromChild",
         "Name": "Customization Options",
         "Bits": [],
         "GlobalBitsIds": [],
         "Children": [
           {
-            "Type": "OneFromList",
+            "$type": "OneFromList",
             "Name": "Upgrade Options",
             "Bits": [
               { "Letter": "U", "Number": "1", "Count": 1 },
@@ -97,13 +97,13 @@
             "Children": []
           },
           {
-            "Type": "OneFromChild",
+            "$type": "OneFromChild",
             "Name": "Nested Customization",
             "Bits": [],
             "GlobalBitsIds": [],
             "Children": [
               {
-                "Type": "RequiredBits",
+                "$type": "RequiredBits",
                 "Name": "Armor Variant A",
                 "Bits": [
                   { "Letter": "AA", "Number": "1", "Count": 1 }
@@ -112,7 +112,7 @@
                 "Children": []
               },
               {
-                "Type": "RequiredBits",
+                "$type": "RequiredBits",
                 "Name": "Armor Variant B",
                 "Bits": [
                   { "Letter": "AB", "Number": "1", "Count": 1 }
@@ -139,7 +139,7 @@
       ],
       "Components": [
         {
-          "Type": "RequiredBits",
+          "$type": "RequiredBits",
           "Name": "Base Equipment",
           "Bits": [
             { "Letter": "L", "Number": "1", "Count": 1 },
@@ -150,7 +150,7 @@
           "Children": []
         },
         {
-          "Type": "OneFromList",
+          "$type": "OneFromList",
           "Name": "Leadership Gear",
           "Bits": [
             { "Letter": "LD", "Number": "1", "Count": 1 },
@@ -173,7 +173,7 @@
       ],
       "Components": [
         {
-          "Type": "RequiredBits",
+          "$type": "RequiredBits",
           "Name": "Specialist Base",
           "Bits": [
             { "Letter": "S", "Number": "1", "Count": 1 },
@@ -183,13 +183,13 @@
           "Children": []
         },
         {
-          "Type": "OneFromChild",
+          "$type": "OneFromChild",
           "Name": "Specialist Role",
           "Bits": [],
           "GlobalBitsIds": [],
           "Children": [
             {
-              "Type": "RequiredBits",
+              "$type": "RequiredBits",
               "Name": "Sniper Configuration",
               "Bits": [
                 { "Letter": "SN", "Number": "1", "Count": 1 },
@@ -199,7 +199,7 @@
               "Children": []
             },
             {
-              "Type": "RequiredBits",
+              "$type": "RequiredBits",
               "Name": "Heavy Weapons Configuration",
               "Bits": [
                 { "Letter": "HW", "Number": "1", "Count": 1 },
@@ -209,13 +209,13 @@
               "Children": []
             },
             {
-              "Type": "OneFromChild",
+              "$type": "OneFromChild",
               "Name": "Support Configuration",
               "Bits": [],
               "GlobalBitsIds": [],
               "Children": [
                 {
-                  "Type": "RequiredBits",
+                  "$type": "RequiredBits",
                   "Name": "Medical Support",
                   "Bits": [
                     { "Letter": "MED", "Number": "1", "Count": 1 }
@@ -224,7 +224,7 @@
                   "Children": []
                 },
                 {
-                  "Type": "OneFromList",
+                  "$type": "OneFromList",
                   "Name": "Technical Support",
                   "Bits": [
                     { "Letter": "TECH", "Number": "1", "Count": 1 },
@@ -252,7 +252,7 @@
       ],
       "Components": [
         {
-          "Type": "RequiredBits",
+          "$type": "RequiredBits",
           "Name": "Standard Trooper Kit",
           "Bits": [
             { "Letter": "T", "Number": "1", "Count": 1 },
@@ -263,7 +263,7 @@
           "Children": []
         },
         {
-          "Type": "OneFromList",
+          "$type": "OneFromList",
           "Name": "Weapon Selection",
           "Bits": [
             { "Letter": "TW", "Number": "1", "Count": 1 },
@@ -285,7 +285,7 @@
       "GlobalComponentIds": [],
       "Components": [
         {
-          "Type": "RequiredBits",
+          "$type": "RequiredBits",
           "Name": "Scout Base Equipment",
           "Bits": [
             { "Letter": "SC", "Number": "1", "Count": 1 },
@@ -295,13 +295,13 @@
           "Children": []
         },
         {
-          "Type": "OneFromChild",
+          "$type": "OneFromChild",
           "Name": "Scout Specialization",
           "Bits": [],
           "GlobalBitsIds": [],
           "Children": [
             {
-              "Type": "OneFromList",
+              "$type": "OneFromList",
               "Name": "Stealth Package",
               "Bits": [
                 { "Letter": "ST", "Number": "1", "Count": 1 },
@@ -312,7 +312,7 @@
               "Children": []
             },
             {
-              "Type": "OneFromList",
+              "$type": "OneFromList",
               "Name": "Reconnaissance Package",
               "Bits": [
                 { "Letter": "RC", "Number": "1", "Count": 1 },
@@ -336,7 +336,7 @@
       ],
       "Components": [
         {
-          "Type": "RequiredBits",
+          "$type": "RequiredBits",
           "Name": "Heavy Armor",
           "Bits": [
             { "Letter": "HA", "Number": "1", "Count": 1 },
@@ -347,13 +347,13 @@
           "Children": []
         },
         {
-          "Type": "OneFromChild",
+          "$type": "OneFromChild",
           "Name": "Heavy Weapons Platform",
           "Bits": [],
           "GlobalBitsIds": [],
           "Children": [
             {
-              "Type": "RequiredBits",
+              "$type": "RequiredBits",
               "Name": "Plasma Cannon",
               "Bits": [
                 { "Letter": "PC", "Number": "1", "Count": 1 },
@@ -363,7 +363,7 @@
               "Children": []
             },
             {
-              "Type": "RequiredBits",
+              "$type": "RequiredBits",
               "Name": "Missile Launcher",
               "Bits": [
                 { "Letter": "ML", "Number": "1", "Count": 1 },
@@ -373,13 +373,13 @@
               "Children": []
             },
             {
-              "Type": "OneFromChild",
+              "$type": "OneFromChild",
               "Name": "Modular Heavy Weapon",
               "Bits": [],
               "GlobalBitsIds": [],
               "Children": [
                 {
-                  "Type": "RequiredBits",
+                  "$type": "RequiredBits",
                   "Name": "Base Platform",
                   "Bits": [
                     { "Letter": "MHW", "Number": "1", "Count": 1 }
@@ -388,7 +388,7 @@
                   "Children": []
                 },
                 {
-                  "Type": "OneFromList",
+                  "$type": "OneFromList",
                   "Name": "Weapon Module",
                   "Bits": [
                     { "Letter": "MHW", "Number": "2", "Count": 1 },
@@ -416,7 +416,7 @@
       ],
       "Components": [
         {
-          "Type": "RequiredBits",
+          "$type": "RequiredBits",
           "Name": "Veteran Equipment",
           "Bits": [
             { "Letter": "V", "Number": "1", "Count": 1 },
@@ -426,7 +426,7 @@
           "Children": []
         },
         {
-          "Type": "OneFromList",
+          "$type": "OneFromList",
           "Name": "Veteran Expertise",
           "Bits": [
             { "Letter": "VE", "Number": "1", "Count": 1 },
@@ -439,13 +439,13 @@
           "Children": []
         },
         {
-          "Type": "OneFromChild",
+          "$type": "OneFromChild",
           "Name": "Veteran Special Equipment",
           "Bits": [],
           "GlobalBitsIds": [],
           "Children": [
             {
-              "Type": "OneFromList",
+              "$type": "OneFromList",
               "Name": "Combat Modifications",
               "Bits": [
                 { "Letter": "CM", "Number": "1", "Count": 1 },
@@ -456,13 +456,13 @@
               "Children": []
             },
             {
-              "Type": "OneFromChild",
+              "$type": "OneFromChild",
               "Name": "Advanced Systems",
               "Bits": [],
               "GlobalBitsIds": ["550e8400-e29b-41d4-a716-446655440003"],
               "Children": [
                 {
-                  "Type": "RequiredBits",
+                  "$type": "RequiredBits",
                   "Name": "Targeting System",
                   "Bits": [
                     { "Letter": "TS", "Number": "1", "Count": 1 }
@@ -471,7 +471,7 @@
                   "Children": []
                 },
                 {
-                  "Type": "RequiredBits",
+                  "$type": "RequiredBits",
                   "Name": "Shield Generator",
                   "Bits": [
                     { "Letter": "SG", "Number": "1", "Count": 1 }
